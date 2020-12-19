@@ -1,4 +1,5 @@
 import './App.css';
+import MeusDados from './MeusDados';
 
 function App() {
   return (
@@ -18,6 +19,8 @@ function App() {
           Maçãs
         </li>
       </ul>
+
+      <MeusDados />
     </div>
   );
 }
